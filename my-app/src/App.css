@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+  font-family: 'Comic Sans MS', BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 14px;
   line-height: 1.5;
@@ -149,17 +149,18 @@ label {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: ghostwhite;
+  border: 1px solid light gray;
 }
 
 /* On mouse-over, add a grey background color */
 .checkbox-container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: gray;
 }
 
 /* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: orange;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -218,9 +219,6 @@ button.outline {
   color: #555;
 }
 
-.bg-zig-zag{
-  background-color: #0b7;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' points='120%2C0 120%2C60 90%2C30 60%2C0 0%2C0 0%2C0 60%2C60 0%2C120 60%2C120 90%2C90 120%2C60 120%2C0'/%3E%3C/svg%3E");
-  /* background by SVGBackgrounds.com */
-}
 
+
+  /* background by SVGBackgrounds.com */
