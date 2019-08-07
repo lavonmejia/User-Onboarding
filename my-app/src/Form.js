@@ -44,9 +44,9 @@ const SignupForm = ({ errors, touched, values, handleSubmit, status }) => {
         <button type="submit">Submit!</button>
       </Form>
 
-      {signup.map(zachnolikey => {
+      {signup.map(submitted => {
         return <p 
-        key={zachnolikey.username}> {zachnolikey.email} {zachnolikey.password}</p>
+        key={submitted.username}> {submitted.email} {submitted.password}</p>
         
       })}
 
